@@ -3,8 +3,8 @@ Data analysis project for gaining insights related to airports, airfields, helip
 
 Using data from two data sources:
 
-- OurAirports
-- GeoNames
+- OurAirports: http://ourairports.com/data/
+- GeoNames: http://www.geonames.org/export/
 
 The GeoNames `allCountries.txt` file does not contain column headers.
 The `add_columns.py` script assigns the official 'geonames' table column names and saves the resulting dataset as `data/raw/geonames.csv`.
